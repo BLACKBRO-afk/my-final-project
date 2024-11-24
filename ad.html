@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт про Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Заголовок сайту -->
+    <header>
+        <h1>Сайт про Minecraft</h1>
+    </header>
+
+    <!-- Основний контент -->
+    <section class="content">
+        <div class="fact-box">
+            <h2>Факт 1</h2>
+            <p>Майнкрафт був створений Маркусом Перссоном, відомим як "Notch".</p>
+        </div>
+        <div class="fact-box">
+            <h2>Факт 2</h2>
+            <p>Перша версія гри була випущена 17 травня 2009 року.</p>
+        </div>
+        <!-- Можна додати більше блоків за потреби -->
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="about-me">
+            <h3>Про мене</h3>
+            <p>Мене звати Карім, і я люблю грати у Minecraft!</p>
+        </div>
+
+        <!-- Меню у футері -->
+        <div class="footer-menu">
+            <h3>Меню сайту</h3>
+            <ul>
+                <li>
+                    <a href="#">Головна</a>
+                </li>
+                <li>
+                    <a href="#">Про мене</a>
+                    <ul>
+                        <li><a href="#">Моя історія</a></li>
+                        <li><a href="#">Досягнення</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Блог</a>
+                    <ul>
+                        <li><a href="#">Новини</a></li>
+                        <li><a href="#">Поради</a></li>
+                        <li><a href="#">Огляди</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Ресурси</a>
+                    <ul>
+                        <li><a href="#">Книги</a></li>
+                        <li><a href="#">Посилання</a></li>
+                        <li><a href="#">Інструменти</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крутая музыка и факты</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #ff5f6d, #ffc371);
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            animation: glow 1.5s infinite alternate;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 4rem;
+            text-shadow: 0 0 10px #fff, 0 0 20px #ff6f91, 0 0 30px #ff6f91, 0 0 40px #ff6f91;
+        }
+        h2 {
+            font-size: 2rem;
+            text-shadow: 0 0 10px #fff, 0 0 15px #ffc371, 0 0 20px #ffc371;
+        }
+        iframe {
+            border: 5px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            margin: 15px 0;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff6f91, 0 0 30px #ff6f91, 0 0 40px #ff6f91;
+            }
+            to {
+                text-shadow: 0 0 15px #fff, 0 0 25px #ff6f91, 0 0 35px #ff6f91, 0 0 50px #ff6f91;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Крутая музыка</h1>
+        <h2>И факты</h2>
+    </div>
+    <iframe 
+        width="928" 
+        height="522" 
+        src="https://www.youtube.com/embed/WBb4P4eVQGU" 
+        title="47 ФАКТОВ о Мобах" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+    <iframe 
+        width="928" 
+        height="522" 
+        src="https://www.youtube.com/embed/laZusNy8QiY?list=PL3817D41C7D841E23" 
+        title="C418 - Haggstrom - Minecraft Volume Alpha" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
